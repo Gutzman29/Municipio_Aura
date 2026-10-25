@@ -1,20 +1,134 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Municipio Escolar | COAR Lima</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Municipio Escolar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>COAR Lima Metropolitana</h1>
-        <p>Municipio Escolar</p>
-    </header>
 
-    <main>
-        <h2>Página en desarrollo</h2>
-        <p>Estamos trabajando en este espacio. Próximamente habrá más información... No olvides farmear aura UwU.</p>
-    </main>
+  <header class="menu">
+    <span class="nombre">Municipio Escolar Coar Lima: AURA</span>
+    <nav>
+      <a href="#equipo">¿Quiénes Somos?</a>
+      <a href="propuestas.html">Propuestas</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== PRESENTACIÓN ===================== -->
+    <!--
+      PARA AGREGAR UNA FOTO: reemplaza todo el <div class="foto">...</div> por:
+      <div class="foto"><img src="fotos/municipio.jpg" alt="Descripción de la imagen"></div>
+    -->
+    <section class="presentacion">
+      <div class="contenedor">
+        <div class="foto revela">Imagen</div>
+        <p class="enunciado revela">Enunciado de presentación del municipio.</p>
+        <a class="boton revela" href="propuestas.html">Ver propuestas</a>
+      </div>
+    </section>
+
+    <!-- ===================== EQUIPO ===================== -->
+    <!--
+      La foto alterna sola entre izquierda y derecha según el orden de los bloques.
+      Si agregas o quitas un integrante, copia o borra el bloque <article> completo.
+      Para poner una foto: <div class="foto"><img src="fotos/alcalde.jpg" alt="Nombre del integrante"></div>
+    -->
+    <section id="equipo">
+      <div class="contenedor">
+        <h2 class="titulo-seccion revela">Equipo</h2>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Carlos</h3>
+            <p class="cargo">Alcalde</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Camila</h3>
+            <p class="cargo">Teniente alcalde</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Logan</h3>
+            <p class="cargo">Vocero 1</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Nombre del regidor</h3>
+            <p class="cargo">Regidor de Comunicación y Tecnología2</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Nombre del regidor</h3>
+            <p class="cargo">Regidora de Emprendimiento y Actividades Productivas 3</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Nombre del regidor</h3>
+            <p class="cargo">Regidor de Salud 4</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Nombre del regidor</h3>
+            <p class="cargo">Regidora de Deporte 5</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+        <article class="integrante revela">
+          <div class="foto">Foto</div>
+          <div class="datos">
+            <h3>Nombre del regidor</h3>
+            <p class="cargo">Regidor 6</p>
+            <p>Primer párrafo sobre gustos.</p>
+            <p>Segundo párrafo sobre personalidad.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
